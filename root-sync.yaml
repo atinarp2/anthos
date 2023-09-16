@@ -8,5 +8,5 @@ spec:
   sourceType: git
   sourceFormat: unstructured
   git:
-    repo: https://github.com/atinarp2/anthos/new/main
+    repo: https://github.com/atinarp2/anthos
     auth: none
