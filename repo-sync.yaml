@@ -1,0 +1,14 @@
+# repo-sync.yaml
+apiVersion: configsync.gke.io/v1beta1
+kind: RepoSync
+metadata:
+  name: repo-sync
+spec:
+  override:
+    enableShellInRendering: true
+  sourceFormat: unstructured
+  git:
+    repo: https://github.com/atinarp2/anthos/new/
+    branch: main
+    auth: none
+# [END repo_sync]
